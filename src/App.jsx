@@ -13,7 +13,11 @@ import {ThemeProvider} from "styled-components"
 
 function App() {
 
-  
+  const theme = {
+    colors:{
+      bg:"#fff"
+    }
+  }
 
   return (
     <ThemeProvider theme={theme}>
